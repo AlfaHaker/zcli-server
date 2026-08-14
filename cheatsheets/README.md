@@ -13,6 +13,7 @@ Welcome to the official documentation and cheatsheet hub for **`zcli-server`** â
 | **[Dual NVMe Storage Guide](./storage-dual-nvme.md)** | Multi-drive NVMe storage architecture, Docker `data-root`, Ollama `modelsDir`, and Incus mounts. |
 | **[Containers & Virtualization](./containers-virtualization.md)** | Managing Docker containers, Incus instances, LXC, and Virt-Manager (VMM). |
 | **[Zellij & TTY Experience](./zellij-tty.md)** | Zellij terminal multiplexer shortcuts, pitch-black TTY styling, and on-demand Hyprland GUI (`start-gui`). |
+| **[Yazi File Manager](./yazi-file-manager.md)** | Fast Rust TTY file manager shortcuts, navigation, file ops, and zoxide jumping. |
 | **[NixOS Beginner Guide](./nix-beginner.md)** | Essential Nix Flakes commands, configuration editing, and system rollback. |
 
 ---

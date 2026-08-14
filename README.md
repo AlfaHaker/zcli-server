@@ -134,6 +134,7 @@ All guides are organized inside the **[cheatsheets/](./cheatsheets/README.md)** 
 * **[Dual NVMe Storage Guide](./cheatsheets/storage-dual-nvme.md)** — Multi-drive storage architecture and redirection.
 * **[Containers & Virtualization](./cheatsheets/containers-virtualization.md)** — Docker, Incus, LXC, and VMM command reference.
 * **[Zellij & TTY Guide](./cheatsheets/zellij-tty.md)** — Terminal multiplexer shortcuts, TTY polish, and on-demand GUI.
+* **[Yazi File Manager Guide](./cheatsheets/yazi-file-manager.md)** — Fast Rust TTY file manager shortcuts & navigation.
 * **[NixOS Beginner Guide](./cheatsheets/nix-beginner.md)** — Flake maintenance, configuration editing, and rollback.
 
 ---
