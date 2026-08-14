@@ -169,7 +169,7 @@ All guides are organized inside the **[cheatsheets/](./cheatsheets/README.md)** 
 
 ---
 
-## 🙏 Credits & Attribution
+##  Credits & Attribution
 This project is based on and derived from **[ZaneyOS](https://gitlab.com/Zaney/zaneyos/)** created by Tyler Kelley (Zaney).
 
 ---
