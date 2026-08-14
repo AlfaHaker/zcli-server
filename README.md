@@ -146,18 +146,12 @@ All guides are organized inside the **[cheatsheets/](./cheatsheets/README.md)** 
 ├── README.md                  # Project Overview
 ├── cheatsheets/               # Cheatsheets & Guides directory
 ├── hosts/
-│   ├── default/
-│   │   ├── default.nix
-│   │   ├── hardware.nix
-│   │   ├── network.nix       # Static IP & Firewall rules
-│   │   ├── proxy.nix         # Caddy Reverse Proxy virtual hosts
-│   │   └── variables.nix     # Host service toggles & paths
-│   └── OldMan/               # Primary host configuration
+│   └── default/
 │       ├── default.nix
 │       ├── hardware.nix
-│       ├── network.nix
-│       ├── proxy.nix
-│       └── variables.nix
+│       ├── network.nix       # Network & Firewall rules
+│       ├── proxy.nix         # Caddy Reverse Proxy virtual hosts
+│       └── variables.nix     # Host service toggles & paths
 └── modules/
     ├── core/                  # Modular single-service system modules
     │   ├── virtualisation.nix # Docker, Incus, LXC, VMM, Podman, VBox

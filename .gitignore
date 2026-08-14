@@ -1,1 +1,8 @@
 .aider*
+result
+result-*
+
+# Ignore all custom host configurations except default
+hosts/*
+!hosts/default/
+!hosts/.gitkeep
