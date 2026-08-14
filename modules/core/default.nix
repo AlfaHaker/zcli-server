@@ -15,7 +15,6 @@ in {
     ./nfs.nix
     ./nh.nix
     ./ollama.nix
-    ./quickshell.nix
     ./packages.nix
     ./printing.nix
     ./security.nix
@@ -26,11 +25,7 @@ in {
     ./syncthing.nix
     ./zellij.nix
     ./virtualisation.nix
-    (
-      if vars.displayManager == "tui"
-      then ./ly.nix
-      else ./sddm.nix
-    )
+    ./ly.nix
     ./system.nix
     ./thunar.nix
     ./user.nix

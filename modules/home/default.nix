@@ -3,11 +3,9 @@
   inherit
     (vars)
     alacrittyEnable
-    barChoice
     ghosttyEnable
     tmuxEnable
     zenBrowserEnable
-    waybarChoice
     weztermEnable
     vscodeEnable
     helixEnable
@@ -16,24 +14,17 @@
     EnableGemini
     EnableAntigravity
     ;
-  # Select bar module based on barChoice
-  barModule =
-    if barChoice == "noctalia"
-    then ./noctalia.nix
-    else waybarChoice;
 in {
   imports =
     [
       ./amfora.nix
       ./bash.nix
       ./bashrc-personal.nix
-      ./overview.nix
       ./python.nix
       ./cli/bat.nix
       ./cli/btop.nix
       ./cli/bottom.nix
       ./cli/cava.nix
-      ./emoji.nix
       ./eza.nix
       ./fastfetch
       ./cli/fzf.nix
@@ -45,7 +36,6 @@ in {
       ./terminals/kitty.nix
       ./cli/lazygit.nix
       ./obs-studio.nix
-      #./editors/nvf.nix
       ./editors/nixvim.nix
       ./editors/nano.nix
       ./rofi
@@ -53,11 +43,8 @@ in {
       ./scripts
       ./stylix.nix
       ./swappy.nix
-      ./swaync.nix
       ./tealdeer.nix
       ./virtmanager.nix
-      barModule
-      ./wlogout
       ./xdg.nix
       ./yazi
       ./zellij
