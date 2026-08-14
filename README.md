@@ -166,3 +166,13 @@ All guides are organized inside the **[cheatsheets/](./cheatsheets/README.md)** 
             ├── zcli-server.nix# Custom CLI rebuild script
             └── start-gui.nix  # On-demand GUI launcher
 ```
+
+---
+
+## 🙏 Credits & Attribution
+This project is based on and derived from **[ZaneyOS](https://gitlab.com/Zaney/zaneyos/)** created by Tyler Kelley (Zaney).
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License** — see the [LICENSE.md](./LICENSE.md) file for full details.
