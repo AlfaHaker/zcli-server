@@ -1,5 +1,0 @@
-# This directory is a Syncthing folder marker.
-# Do not delete.
-
-folderID: 7dku2-fvgub
-created: 2026-07-20T20:08:32+03:00
